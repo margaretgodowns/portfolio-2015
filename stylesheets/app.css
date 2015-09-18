@@ -6323,7 +6323,7 @@ th.hide-for-touch {
   .show-for-print {
     display: none !important; } }
 body {
-  background-image: url(../images/fieldnotes.jpg);
+  background-image: url(../images/background-3.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -6344,13 +6344,14 @@ body {
   body header {
     text-align: center;
     margin: auto;
-    width: 50%; }
+    margin-top: 150px;
+    width: 38%; }
     body header h1, body header p {
       font-family: "Old Standard TT", serif;
-      color: white;
-      text-transform: uppercase; }
-    body header h1 {
+      color: white; }
+    body header p {
+      text-transform: uppercase;
+      margin: 0px; }
+    body header div {
       border-top: 2px solid white;
       border-bottom: 2px solid white; }
-    body header p {
-      line-height: 1px; }
