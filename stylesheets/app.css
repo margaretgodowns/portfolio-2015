@@ -6322,3 +6322,35 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+body {
+  background-image: url(../images/fieldnotes.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+  body nav {
+    text-align: center; }
+    body nav ul {
+      font-family: "Cabin", sans-serif;
+      list-style-type: none;
+      font-size: 20px;
+      color: white; }
+      body nav ul li {
+        display: inline-block;
+        padding: 20px; }
+  body header {
+    text-align: center;
+    margin: auto;
+    width: 50%; }
+    body header h1, body header p {
+      font-family: "Old Standard TT", serif;
+      color: white;
+      text-transform: uppercase; }
+    body header h1 {
+      border-top: 2px solid white;
+      border-bottom: 2px solid white; }
+    body header p {
+      line-height: 1px; }
