@@ -4,8 +4,12 @@
 $primary-font: 'Cabin', sans-serif;
 $secondary-font: 'Old Standard TT', serif;
 
+body, html, main {
+	height: 100%;
+}
 body {
 	
+/*
 	background-image: url(../images/background-3.jpg); 
 	background-position: center center;
 	background-attachment: fixed;
@@ -14,30 +18,38 @@ body {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+*/
+	.cd-fixed-bg {
+		min-height: 100%;
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-image: url(../images/background-4.jpg);
 	
-	nav {
+		nav {
 		
-		text-align: center;
+			text-align: center;
 	
-		ul {
+			ul {
 			
-			font-family: $primary-font;
-			list-style-type: none;
-			font-size: 20px;
-			color: white;
+				font-family: $secondary-font;
+				list-style-type: none;
+				font-size: 20px;
+				color: white;
 			
-			li {
+				li {
 				
-				display: inline-block;
-				padding: 20px;
+					display: inline-block;
+					padding: 20px;
 				
+				}
+			
 			}
-			
+		
 		}
 		
-	}
-		
-	header {
+		.intro {
 			
 			text-align: center;
 			margin: auto;
@@ -46,7 +58,7 @@ body {
 			
 			h1, p {
 				
-				font-family: $secondary-font;
+				font-family: $primary-font;
 				color: white;
 				
 			}
@@ -57,15 +69,62 @@ body {
 				margin: 0px;
 				
 			}
-			
-			div {
-				
-				border-top: 2px solid white;
-				border-bottom: 2px solid white;
-				
-			}
 						
+		}
 	}
+	
+	.cd-fixed-bg.cd-bg-1 {
+		
+		background: white;
+		
+			.work-header {
+				text-align: center;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				
+				h2 {
+					
+				font-family: $secondary-font;
+				
+				}
+			}
+		
+			.work-entry {
+				
+				text-align: center;
+				
+				img {
+					
+					border-radius: 100%;
+					border: 8px solid black;
+					opacity: .5;
+					
+					&:hover {
+					
+						opacity: 1;
+					
+					}
+					
+				}
+				
+				h3 {
+					
+					font-family: $primary-font;
+					margin-top: 50px;
+					
+				}
+			
+			}
+		
+		}	
+		
+	}	
+	
+	.cd-fixed-bg.cd-bg-2 {
+		
+		background-image: url(../images/background-4.jpg);
+		
+		
 		
 }
 // Or selectively include components

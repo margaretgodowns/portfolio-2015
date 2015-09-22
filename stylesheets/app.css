@@ -6322,36 +6322,67 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+body, html, main {
+  height: 100%; }
+
 body {
-  background-image: url(../images/background-3.jpg);
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
-  body nav {
-    text-align: center; }
-    body nav ul {
-      font-family: "Cabin", sans-serif;
-      list-style-type: none;
-      font-size: 20px;
-      color: white; }
-      body nav ul li {
-        display: inline-block;
-        padding: 20px; }
-  body header {
-    text-align: center;
-    margin: auto;
-    margin-top: 150px;
-    width: 38%; }
-    body header h1, body header p {
-      font-family: "Old Standard TT", serif;
-      color: white; }
-    body header p {
-      text-transform: uppercase;
-      margin: 0px; }
-    body header div {
-      border-top: 2px solid white;
-      border-bottom: 2px solid white; }
+  /*
+  	background-image: url(../images/background-3.jpg); 
+  	background-position: center center;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  */ }
+  body .cd-fixed-bg {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../images/background-4.jpg); }
+    body .cd-fixed-bg nav {
+      text-align: center; }
+      body .cd-fixed-bg nav ul {
+        font-family: "Old Standard TT", serif;
+        list-style-type: none;
+        font-size: 20px;
+        color: white; }
+        body .cd-fixed-bg nav ul li {
+          display: inline-block;
+          padding: 20px; }
+    body .cd-fixed-bg .intro {
+      text-align: center;
+      margin: auto;
+      margin-top: 150px;
+      width: 38%; }
+      body .cd-fixed-bg .intro h1, body .cd-fixed-bg .intro p {
+        font-family: "Cabin", sans-serif;
+        color: white; }
+      body .cd-fixed-bg .intro p {
+        text-transform: uppercase;
+        margin: 0px; }
+  body .cd-fixed-bg.cd-bg-1 {
+    background: white; }
+    body .cd-fixed-bg.cd-bg-1 .work-header {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      body .cd-fixed-bg.cd-bg-1 .work-header h2 {
+        font-family: "Old Standard TT", serif; }
+    body .cd-fixed-bg.cd-bg-1 .work-entry {
+      text-align: center; }
+      body .cd-fixed-bg.cd-bg-1 .work-entry img {
+        border-radius: 100%;
+        border: 8px solid black;
+        opacity: .5; }
+        body .cd-fixed-bg.cd-bg-1 .work-entry img:hover {
+          opacity: 1; }
+      body .cd-fixed-bg.cd-bg-1 .work-entry h3 {
+        font-family: "Cabin", sans-serif;
+        margin-top: 50px; }
+
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url(../images/background-4.jpg); }
