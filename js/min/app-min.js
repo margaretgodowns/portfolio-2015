@@ -1,0 +1,1 @@
+$(document).foundation(),$("#workNav").click(function(){$("html, body").animate({scrollTop:$("#workDiv").offset().top},2e3)});

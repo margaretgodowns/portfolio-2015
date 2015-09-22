@@ -6386,3 +6386,13 @@ body {
 
 .cd-fixed-bg.cd-bg-2 {
   background-image: url(../images/background-4.jpg); }
+
+@media only screen and (max-width: 40em) {
+  img {
+    display: none; }
+
+  body .cd-fixed-bg.cd-bg-1 .work-entry h3 {
+    margin-top: 0px;
+    font-size: 36px;
+    padding: 5px;
+    border-bottom: 1px solid black; } }
