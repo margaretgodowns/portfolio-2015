@@ -6366,23 +6366,27 @@ body {
         margin: 0px; }
   body .cd-fixed-bg.cd-bg-1 {
     background: white; }
-    body .cd-fixed-bg.cd-bg-1 .work-header {
-      text-align: center;
-      margin-top: 50px;
-      margin-bottom: 50px; }
-      body .cd-fixed-bg.cd-bg-1 .work-header h2 {
-        font-family: "Old Standard TT", serif; }
-    body .cd-fixed-bg.cd-bg-1 .work-entry {
+    body .cd-fixed-bg.cd-bg-1 .content-column {
+      margin-top: 40px;
+      height: 100%; }
+    body .cd-fixed-bg.cd-bg-1 #recent-work-h2 {
+      border-right: 1px solid #CAAD96; }
+    body .cd-fixed-bg.cd-bg-1 h2 {
+      font-family: "Old Standard TT", serif;
+      color: #CAAD96;
       text-align: center; }
-      body .cd-fixed-bg.cd-bg-1 .work-entry img {
-        border-radius: 100%;
-        border: 8px solid black;
-        opacity: .5; }
-        body .cd-fixed-bg.cd-bg-1 .work-entry img:hover {
-          opacity: 1; }
-      body .cd-fixed-bg.cd-bg-1 .work-entry h3 {
-        font-family: "Cabin", sans-serif;
-        margin-top: 50px; }
+    body .cd-fixed-bg.cd-bg-1 ul {
+      list-style-type: none; }
+    body .cd-fixed-bg.cd-bg-1 a h3:hover {
+      background-color: #CAAD96;
+      color: white;
+      font-style: italic; }
+    body .cd-fixed-bg.cd-bg-1 h3 {
+      font-family: "Cabin", sans-serif;
+      color: #CAAD96; }
+    body .cd-fixed-bg.cd-bg-1 p {
+      font-family: "Old Standard TT", serif;
+      color: #CAAD96; }
 
 .cd-fixed-bg.cd-bg-2 {
   background-image: url(../images/background-4.jpg); }

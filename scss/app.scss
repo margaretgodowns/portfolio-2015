@@ -76,45 +76,55 @@ body {
 	.cd-fixed-bg.cd-bg-1 {
 		
 		background: white;
-		
-			.work-header {
-				text-align: center;
-				margin-top: 50px;
-				margin-bottom: 50px;
 				
-				h2 {
+			.content-column {
+				
+				margin-top: 40px;
+				height: 100%;
+				
+			}
+			
+			#recent-work-h2 {
+				
+				border-right: 1px solid #CAAD96;
+				
+			}
+			
+			h2 {
 					
 				font-family: $secondary-font;
-				
-				}
-			}
-		
-			.work-entry {
-				
+				color: #CAAD96;
 				text-align: center;
-				
-				img {
 					
-					border-radius: 100%;
-					border: 8px solid black;
-					opacity: .5;
-					
-					&:hover {
-					
-						opacity: 1;
-					
-					}
-					
-					
-				}
-				
-				h3 {
-					
-					font-family: $primary-font;
-					margin-top: 50px;
-					
-				}
+			}
 			
+			ul {
+				
+				list-style-type: none;
+				
+			}
+			
+			a h3:hover {
+					
+				background-color: #CAAD96;
+				color: white;
+				font-style: italic;		
+				
+			}
+			
+			h3 {
+				
+				font-family: $primary-font;
+				color: #CAAD96;
+				
+				
+			}
+			
+			p {
+				
+				font-family: $secondary-font;
+				color: #CAAD96;
+				
 			}
 		
 		}	
