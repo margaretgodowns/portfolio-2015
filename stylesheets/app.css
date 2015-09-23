@@ -6390,6 +6390,13 @@ body {
 
 .cd-fixed-bg.cd-bg-2 {
   background-image: url(../images/background-4.jpg); }
+  .cd-fixed-bg.cd-bg-2 .contact-section {
+    position: relative;
+    top: 200px; }
+  .cd-fixed-bg.cd-bg-2 h4 {
+    font-family: "Old Standard TT", serif;
+    color: white;
+    text-align: center; }
 
 @media only screen and (max-width: 40em) {
   img {
