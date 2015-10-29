@@ -30,6 +30,11 @@ body {
 		nav {
 		
 			text-align: center;
+			
+			a {
+    			text-decoration: none;
+    			color: white;
+			}
 	
 			ul {
 			
@@ -73,9 +78,15 @@ body {
 		}
 	}
 	
-	.cd-fixed-bg.cd-bg-1 {
+	.cd-bg-1 {
 		
 		background: white;
+		height: initial;
+		min-height: 100%;
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
 				
 			.content-column {
 				
